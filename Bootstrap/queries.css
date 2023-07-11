@@ -1,72 +1,71 @@
-@media screen and (max-width:1200px){
-.row{
-    padding: 0;
-}
+@media screen and (max-width:1200px) {
+    .row {
+        padding: 0;
+    }
 
 }
-@media screen and (max-width: 992px){
 
-    .navbar-toggler{
+@media screen and (max-width: 992px) {
+
+    .navbar-toggler {
         border-color: var(--bs-main-color);
     }
 
-    .navbar-toggler-icon{
+    .navbar-toggler-icon {
         color: var(--bs-main-color);
         background-color: var(--bs-main-color);
     }
 
-    h1{
+    h1 {
         font-size: 2.4rem;
         margin-top: 2rem;
     }
-    section .common-heading{
+
+    section .common-heading {
         font-size: 2rem;
     }
-    section .para-width{
+
+    section .para-width {
         width: auto;
     }
 
-    .hero-section{
-        height: 100vh;
-    }
-
-    .hero-section video {
-        position: relative;
-        top: -6rem;
-    }
-
-    .hero-section button {
-        margin-bottom: -8rem;
-    }
-
-    .more-info-section{
+    .more-info-section {
         text-align: center;
     }
 
     .more-info-section .img-section img {
         left: -17px;
     }
-    
-    .contact-details p{
+
+    .contact-details p {
         font-size: 12px;
     }
 
-    .p-phone{
+    .p-phone {
         letter-spacing: 0;
     }
 }
 
-@media screen and (max-width: 768px){
-    .row{
-padding: 0 2rem 0 2rem;
-    }
- .footer-section button{
-    /* padding: 1rem; */
-    font-size: 0.7rem;
-    font-weight: bold;
-    
- }
-
-    
+@media screen and (max-width: 768px) {
+    .row {
+        padding: 0 2rem 0 2rem;
     }
 
+    .footer-section button {
+        /* padding: 1rem; */
+        font-size: 0.7rem;
+        font-weight: bold;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero-video-section {
+        width: 16rem;
+        border-radius: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
