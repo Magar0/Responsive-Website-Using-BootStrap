@@ -1,3 +1,3 @@
 # Responsive-Website-Using-BootStrap
-https://responsive-web-site-bootstrap.netlify.app/
+https://thapa0.github.io/Responsive-Website-Using-BootStrap/
 (you can check the website clicking on above link)
